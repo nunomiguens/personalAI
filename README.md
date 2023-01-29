@@ -20,7 +20,7 @@ Create a .env file in the server directory and add the following
 OPENAI_API_KEY= your OpenAI API secret key
 ```
 
-## Replace de URL in the script.js file
+## Replace the URL in the script.js file
 ```
 const response = await fetch(/*here >*/'http://localhost:5000', {
         method: 'POST',
